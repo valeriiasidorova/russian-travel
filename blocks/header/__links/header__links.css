@@ -1,0 +1,7 @@
+.header__links {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}

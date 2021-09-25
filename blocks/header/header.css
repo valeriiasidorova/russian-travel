@@ -1,0 +1,16 @@
+.header {
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .header  {
+    padding: 0 16px;
+  }
+}

@@ -1,0 +1,26 @@
+.header__lang-link {
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 30px 18px 0 0;
+  opacity: .5s;
+}
+
+.header__lang-link:hover {
+  opacity: .5;
+  transition: opacity .2s;
+}
+
+.header__lang-link:last-child {
+  padding-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .header__lang-link {
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 46px;
+  }
+}
