@@ -1,0 +1,21 @@
+.place__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  .place__website {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place__website {
+    order: 2;
+  }
+}
